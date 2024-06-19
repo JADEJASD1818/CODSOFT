@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">SDJ</div>
+            <div class="navbar-list">
+                <ul class="ul-list">
+                    <li><a class="active" href="#home" class="underline">Home</a></li>
+                    <li><a href="#about" class="underline">About me</a></li>
+                    <li><a href="#education" class="underline">Education</a></li>
+                    <li><a href="#skills" class="underline">Skills</a></li>
+                    <li><a href="#contact" class="underline">Contact me</a></li>
+
+                </ul>
+                <i class="fa-solid fa-bars nav-icon menu-icon" onclick="showList()"></i>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home">
+        <div class="home">
+            <div class="home-container1">
+                <div class="home-content">
+                    <h3 class="content-first">Hello, It's me</h3>
+                    <h1 class="name">Satyajeetsinh Jadeja</h1>
+                    <h3>I'm a <span class="text"></span></h3>
+
+                    <div class="home-icon">
+                        <a href="https://www.linkedin.com/in/jadeja-satyajeetsinh/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/JADEJASD1818/" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/jadejasd1818/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <a href="#about" class="btn-box"> More About Me</a>
+                </div>
+            </div>
+            <div class="home-container2">
+                <div class="home-img"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="about">
+            <div class="about-container1">
+                <div class="about-img"></div>
+            </div>
+            <div class="about-container2">
+                <div class="about-content">
+                    <h2 class="About_Heading">About Me</h2>
+                    <h3 class="profession">Computer Engineer</h3>
+                    <p class="first_about">Hello, I AM PURSUING BACHELOR OF ENGINEERING IN COMPUTER ENGINEERING AT G. H.
+                        PATEL COLLEGE OF ENGINEERING AND TECHNOLOGY, CHAROTAR VIDYAMANDAL UNIVERSITY
+                    </p>
+                    </p>
+                    <div class="personalInfo">
+                        <p>Email: <a href="#">jadejasd1818@gmail.com</a> </p>
+                    </div>
+                    <div class="personalInfo">
+                        <p>Phone: <span>+91 82002 84113</span> </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section  -->
+
+    <Section id="skills">
+        <div class="skills">
+            <div class="skill-container1">
+                <h2>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    Skills & Abilities
+                </h2>
+            </div>
+            <div class="skill-container2">
+                <div class="skill-bg">
+                    <div class="skill-box">
+                        <i class="fa-brands fa-html5 box1 box"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-css3-alt box2 box"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-bootstrap box3 box"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-brands fa-java box4 box"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-c box5 box"></i>
+                        <h3>C Language</h3>
+                    </div>
+                    <div class="skill-box">
+                        <i class="fa-solid fa-database box6 box"></i>
+                        <h3 class="box6-h3">DSA</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </Section>
+
+    <!-- Contact Section  -->
+
+    <section id="contact">
+        <div class="contact">
+            <div class="contact-container1">
+                <h2 class="heading">
+                    <i class="fa-solid fa-headset"></i>
+                    Get in <span> Touch!</span>
+                </h2>
+            </div>
+            <div class="contact-container2">
+                <div class="contact-bg">
+                    <div class="contact-bg1"></div>
+                    <div class="contact-bg2">
+                        <form action="#">
+                            <div>
+                                <i class="fa-solid fa-user user"></i>
+                                <input type="text" placeholder="Your Name">
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="Email" placeholder="Your Email">
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <input maxLength="10" type="number" placeholder="Your Mobile Number">
+                            </div>
+                            <div class="textarea">
+                                <i class="fa-solid fa-comment-dots"></i>
+                                <textarea name="message" cols="10" rows="10"
+                                    placeholder="Any Message for me.."></textarea>
+                            </div>
+                            <input type="button" name="Submit" id="submit-btn" value="Submit">
+                            <!-- <button id="submit-btn">Submit</button> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="footer-section1">
+                <table id="footer-table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <h2>Satyajeetsinh's Portfolio</h2>
+                            </th>
+                            <th>
+                                <h2>Quick Links</h2>
+                            </th>
+                            <th>
+                                <h2>Contact Info</h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="conclusion1">Thank you for visiting my personal portfolio website.</p>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li><a href="#home">Home</a></li>
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#education">Education</a></li>
+                                    <li><a href="#skills">Skills</a></li>
+
+                                </ul>
+                            </td>
+                            <td>
+                                <div class="c1">
+                                    <i class="fa-solid fa-phone"></i> +91 82002 84113
+                                </div>
+                                <div class="c1">
+                                    <i class="fa-solid fa-envelope"></i> <a style="color:black"
+                                        href="mailto:jadejasd1818@gmail.com">jadejasd1818@gmail.com</a>
+                                </div>
+                                <div class="c1">
+                                    <i class="fa-solid fa-map-location-dot"></i> Gujarat,India-360005
+                                </div>
+                                <div class="footer-icon">
+                                    <a href="https://www.linkedin.com/in/jadeja-satyajeetsinh/"><i
+                                            class="fa-brands fa-linkedin"></i></a>
+                                    <a href="https://github.com/JADEJASD1818/"><i class="fa-brands fa-github"></i></a>
+                                    <a href="https://www.instagram.com/jadejasd1818/"><i
+                                            class="fa-brands fa-instagram"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="footer-mobile">
+                <div class="footer-section1-1">
+                    <h2>Satyajeetsinh's Portfolio</h2>
+                </div>
+                <div class="footer-section1-2">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#education">Education</a></li>
+                        <li><a href="#skills">Skills</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-section1-3">
+                    <h2>Contact Info</h2>
+                    <div class="c1">
+                        <i class="fa-solid fa-phone"></i> +91 82002 84113
+                    </div>
+                    <div class="c1">
+                        <i class="fa-solid fa-envelope"></i> <a style="color:black"
+                            href="mailto:jadejasd1818@gmail.com">jadejasd1818@gmail.com</a>
+                    </div>
+                    <div class="c1">
+                        <i class="fa-solid fa-map-location-dot"></i> Gujarat,India-360005
+                    </div>
+                    <div class="footer-icon">
+                        <a href="https://www.linkedin.com/in/jadeja-satyajeetsinh/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/JADEJASD1818/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/jadejasd1818/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-section2">
+                Designed by <span>SDJ</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
